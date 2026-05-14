@@ -1,70 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Your Name | Resume</title>
-<style>
-body { font-family: Arial, sans-serif; margin: 0; line-height: 1.6; color: #222; }
-header { background: #0f172a; color: white; padding: 3rem 1rem; text-align: center; }
-nav { background: #1e293b; padding: 0.75rem; text-align: center; position: sticky; top: 0; }
-nav a { color: white; margin: 0 1rem; text-decoration: none; }
-section { max-width: 900px; margin: auto; padding: 2rem 1rem; }
-h2 { border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem; }
-.skills span { display: inline-block; background: #e2e8f0; margin: 0.25rem; padding: 0.4rem 0.8rem; border-radius: 999px; }
-footer { background: #f8fafc; text-align: center; padding: 2rem; color: #475569; }
-@media print { nav { display: none; } }
-</style>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Anirban Sarkar — Agentic AI expert </title>
+  <meta name="description" content="Anirban Sarkar — Agentic AI Expert || Cloud Data Architect."/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#071022;--muted:#94a3b8;--accent:#06b6d4;--card:rgba(255,255,255,0.03);--maxw:1100px;--radius:12px}
+    *{box-sizing:border-box}body{font-family:'Poppins',system-ui,Segoe UI,Roboto,Arial;background:linear-gradient(180deg,#071022,#071426);color:#e6eef6;margin:0}
+    a{color:var(--accent)}
+    .wrap{max-width:var(--maxw);margin:24px auto;padding:18px}
+    header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;color:#021124;font-weight:700}
+    nav{display:flex;gap:12px;align-items:center}
+    nav a{color:var(--muted);text-decoration:none;padding:8px;border-radius:8px}
+    .hero{display:flex;gap:20px;align-items:flex-start;margin-top:18px;flex-wrap:wrap}
+    .photo{width:120px;height:120px;border-radius:12px;object-fit:cover;background:rgba(255,255,255,0.02)}
+    .card{background:var(--card);padding:18px;border-radius:var(--radius);box-shadow:0 6px 18px rgba(0,0,0,0.6)}
+    h1,h2{margin:0 0 8px}
+    .muted{color:var(--muted)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:14px}
+    ul{margin:8px 0 0 18px}
+    footer{text-align:center;color:var(--muted);margin-top:28px;padding-bottom:20px}
+    @media(max-width:880px){.hero{flex-direction:column;align-items:center}.photo{margin-bottom:8px}}
+  </style>
 </head>
 <body>
-<header>
-  <h1>Your Name</h1>
-  <p>Data Architect | Cloud Engineer | Technology Leader</p>
-  <p>Email: your.email@example.com | LinkedIn | GitHub</p>
-</header>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">AS</div>
+        <div>
+          <div style="font-weight:700">Anirban Sarkar</div>
+          <div class="muted" style="font-size:13px"> Agentic AI Expert | Cloud Data Architect </div>
+        </div>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#solutions">AI Solutions</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-<nav>
-  <a href="#summary">Summary</a>
-  <a href="#skills">Skills</a>
-  <a href="#experience">Experience</a>
-  <a href="#education">Education</a>
-</nav>
+    <main>
+      <section id="home" style="margin-top:18px;display:flex;gap:18px;align-items:flex-start">
+        <img src="https://raw.githubusercontent.com/anirbantc/profile.jpeg" alt="Anirban Sarkar" class="photo">
+        <div style="flex:1">
+          <h1>Anirban Sarkar</h1>
+        </div>
+      </section>
 
-<section id="summary">
-  <h2>Professional Summary</h2>
-  <p>Replace this section with a concise summary of your experience, strengths, and career achievements.</p>
-</section>
+      <section id="about" style="margin-top:18px">
+        <div class="card">
+          <h2>About Me</h2>
+          <!-- Inserted Profile Synopsis from CV -->
+          <p class="muted" style="margin-top:8px">
+            Highly accomplished Data Architect and Analyst with a proven 19 years track record of driving business impact through scalable cloud data platforms and advanced analytics, including Generative AI. Extensive expertise spanning AWS and Azure ecosystems across multiple industries, including airline, healthcare, finance, retail, and telecom. Strategic leader with extensive experience collaborating with global clients and teams across Australia, Europe, and Asia, known for transforming complex data challenges into actionable insights that drive strategic decision-making.
+          </p>
 
-<section id="skills">
-  <h2>Skills</h2>
-  <div class="skills">
-    <span>AWS</span>
-    <span>Azure</span>
-    <span>Python</span>
-    <span>DynamoDB</span>
-    <span>SQL Server</span>
-    <span>Data Architecture</span>
+          <div class="grid" style="margin-top:12px">
+            <div class="card">
+              <h3>Recent Certifications</h3>
+              <ul class="muted" style="margin-top:8px">
+                <li>Generative AI Engineering with LLMs Specialization</li>
+                <li>Generative AI (E2)</li>
+                <li>Databricks Certified Data Engineer</li>
+                <li>Snowpro Core Certification (Snowflake)</li>
+                <li>AWS Certified Data Analytics – Specialty</li>
+                <li>AWS Certified Database – Specialty</li>
+                <li>AWS Solutions Architect – Associate </li>
+                <li>AWS Cloud Practitioner</li>
+				<li>Microsoft Azure Architect Technologies</li>
+				<li>Microsoft Azure Architect Design</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3>Top Skills</h3>
+              <ul class="muted" style="margin-top:8px">
+                <li>AI/ML & GenAI: LLMs (GPT, Claude, LLaMA), Diffusion, Fine-tuning, RAG, Agentic AI (LangChain, LangGraph)</li>
+                <li>Cloud-Native: AWS, Azure</li>
+                <li>Data & Infra: Data Lakes/Warehouses, Kafka, Streaming, Vector DBs (Pinecone/FAISS/Weaviate)</li>
+                <li>Tools: Update Inprogress</li>
+                <li>Domain: Update Inprogress</li>
+                <li>Programming: Update Inprogress</li>
+                <li>Leadership: Update Inprogress</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="solutions" style="margin-top:18px">
+        <div class="card">
+          <h2>AI Solutions — Summary of AI-related Projects</h2>
+          <p class="muted" style="margin-top:8px">
+            Concise summary of AI projects and initiatives that I have consulted, architected and significantly contributed across Global Enterpirses .
+          </p>
+          <p style="margin-top:8px"><a href="https://anirbantc.github.io/ai_project1" target="_blank"> WIP_Project1 </a></p>
+           <p style="margin-top:8px"><a href="https://anirbantc.github.io/ai_project2" target="_blank"> WIP_Project2</a></p>
+        </div>
+      </section>
+
+      <section id="blog" style="margin-top:18px">
+        <div class="card">
+          <h2>Blog — Public Reference</h2>
+          <p class="muted" style="margin-top:8px">Summary:Built a Retrieval-Augmented Generation (RAG) question-answering application using LangChain and IBM WatsonxLLM to enhance LLM accuracy and reduce hallucinations. The solution integrates document loading, text splitting, embeddings, vector databases, retrieval, and a Gradio-based user interface to deliver context-aware and reliable responses from external knowledge sources:</p>
+          <p style="margin-top:8px"><a href="https://medium.com/@anirbantc/building-a-rag-powered-qa-bot-with-langchain-and-watsonxllm-749b06b761bb" target="_blank">Building a RAG-Powered QA Bot with LangChain and WatsonxLLM</a></p>
+        </div>
+      </section>
+
+      <section id="contact" style="margin-top:18px">
+        <div class="card">
+          <h2>Contact</h2>
+          <p class="muted" style="margin-top:8px">
+            Email: <a href="mailto:anirbantccloud@gmail.com">anirbantccloud@gmail.com</a><br>
+            Phone: +91-9674668280<br>
+            LinkedIn: <a href="https://www.linkedin.com/in/anirban-sarkar07/" target="_blank">https://www.linkedin.com/in/anirban-sarkar07/</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="muted">© <span id="year"></span> Anirban Sarkar — Agentic AI Expert • Cloud Data Architect</div>
+    </footer>
   </div>
-</section>
 
-<section id="experience">
-  <h2>Experience</h2>
-  <h3>Senior Data Architect</h3>
-  <p><strong>Company Name</strong> | 2020 – Present</p>
-  <ul>
-    <li>Designed scalable cloud-native data platforms.</li>
-    <li>Led migration of enterprise systems to AWS and Azure.</li>
-    <li>Implemented high-performance data models and ETL pipelines.</li>
-  </ul>
-</section>
-
-<section id="education">
-  <h2>Education</h2>
-  <p><strong>Your Degree</strong> — University Name</p>
-</section>
-
-<footer>
-  <p>© 2026 Your Name. Hosted on GitHub Pages.</p>
-</footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
 </body>
 </html>
